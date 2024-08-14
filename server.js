@@ -2,8 +2,8 @@ const express = require('express');
 const axios = require('axios');
 const fs = require('fs');
 const path = require('path');
-require('dotenv').config({ path: 'add.env' }); // Sử dụng tên file tùy chỉnh
-const cors = require('cors');  // Import cors
+require('dotenv').config({ path: 'add.env' }); 
+const cors = require('cors');
 
 const app = express();
 const port = 3000;
